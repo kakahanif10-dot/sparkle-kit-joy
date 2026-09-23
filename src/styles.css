@@ -168,9 +168,9 @@
       180deg,
       #79b4f2 0%,
       #9fa8f0 26%,
-      #c3a2ec 48%,
-      #efaade 68%,
-      color-mix(in srgb, #efaade 45%, #000) 84%,
+      #c3a2ec 52%,
+      #efaade 78%,
+      color-mix(in srgb, #efaade 40%, #000) 91%,
       var(--background) 100%
     );
 }
