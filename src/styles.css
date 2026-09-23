@@ -147,20 +147,21 @@
 .hero-pastel {
   position: relative;
   isolation: isolate;
+  color: oklch(0 0 0);
 
-  --foreground: oklch(0.3 0.04 290);
+  --foreground: oklch(0 0 0);
   --card: oklch(1 0 0 / 65%);
-  --card-foreground: oklch(0.3 0.04 290);
+  --card-foreground: oklch(0 0 0);
   --popover: oklch(1 0 0 / 90%);
-  --popover-foreground: oklch(0.3 0.04 290);
+  --popover-foreground: oklch(0 0 0);
   --secondary: oklch(1 0 0 / 55%);
-  --secondary-foreground: oklch(0.3 0.04 290);
+  --secondary-foreground: oklch(0 0 0);
   --muted: oklch(1 0 0 / 45%);
-  --muted-foreground: oklch(0.45 0.04 290);
+  --muted-foreground: oklch(0.2 0 0);
   --border: oklch(1 0 0 / 55%);
   --input: oklch(1 0 0 / 65%);
   --sidebar: oklch(1 0 0 / 65%);
-  --sidebar-foreground: oklch(0.3 0.04 290);
+  --sidebar-foreground: oklch(0 0 0);
   --sidebar-border: oklch(1 0 0 / 55%);
   --sidebar-accent: oklch(1 0 0 / 45%);
   background:

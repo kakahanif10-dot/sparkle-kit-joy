@@ -30,8 +30,8 @@ export const Route = createFileRoute("/")({
 function HomePage() {
   return (
     <main className="relative min-h-screen bg-background">
-      <SiteHeader />
       <div className="hero-pastel">
+        <SiteHeader />
         <Hero />
       </div>
 
