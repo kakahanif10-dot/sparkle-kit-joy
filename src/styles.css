@@ -143,8 +143,11 @@
 }
 
 /* Workspace keeps its original quiet, neutral separators. */
-/* Landing page only: soft pastel gradient (blue -> lavender -> pink) with dark text */
-.landing-pastel {
+/* Hero band only: soft pastel gradient fading into the black page below */
+.hero-pastel {
+  position: relative;
+  isolation: isolate;
+
   --foreground: oklch(0.3 0.04 290);
   --card: oklch(1 0 0 / 65%);
   --card-foreground: oklch(0.3 0.04 290);
