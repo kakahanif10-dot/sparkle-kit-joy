@@ -167,9 +167,11 @@
     linear-gradient(
       180deg,
       #79b4f2 0%,
-      #9fa8f0 30%,
-      #c3a2ec 60%,
-      #efaade 100%
+      #9fa8f0 26%,
+      #c3a2ec 48%,
+      #efaade 68%,
+      color-mix(in srgb, #efaade 45%, #000) 84%,
+      var(--background) 100%
     );
 }
 
